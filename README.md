@@ -1,5 +1,10 @@
 # BetterPingCommand
 
+## What's different from VanillaPlus?
+
+Literally only the color lmfao
+- #d0a0d8
+  
 ## About
 
 This is a Minecraft plugin that implements a /ping command with vanished player conditions.
