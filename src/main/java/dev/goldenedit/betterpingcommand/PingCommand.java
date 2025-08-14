@@ -19,7 +19,7 @@ public class PingCommand implements CommandExecutor {
         if (args.length == 0) {
             Player target = player;
             int ping = target.getPing();
-            player.sendMessage(mm.deserialize("<gray>Your ping is: <#02acfa>" + ping + "ms"));
+            player.sendMessage(mm.deserialize("<gray>Your ping is: <#d0a0d8>" + ping + "ms"));
             return true;
         }
         if (args.length > 0) {
@@ -29,7 +29,7 @@ public class PingCommand implements CommandExecutor {
                 return true;
             }
             int ping = target.getPing();
-            player.sendMessage(mm.deserialize("<gray>The ping of <#02acfa>" + target.getName() + "<gray> is: <#02acfa>" + ping + "ms"));
+            player.sendMessage(mm.deserialize("<gray>The ping of <#d0a0d8>" + target.getName() + "<gray> is: <#d0a0d8>" + ping + "ms"));
             return true;
         }
         return true;
